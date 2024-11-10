@@ -17,6 +17,7 @@
 #define MAPS_PATH "./resources/data/maps/"
 #define FONTS_PATH "./resources/graphics/fonts/"
 #define UI_PATH "./resources/graphics/ui/"
+#define OBJECTS_PATH "./resources/graphics/objects/"
 #define ICONS_PATH "./resources/graphics/icons/"
 #define BACKGROUNDS_PATH "./resources/graphics/backgrounds/"
 
@@ -30,7 +31,7 @@
 #define HOUSE_SCENE_ID 6
 #define TEST_SCENE_ID 7
 #define NUM_SCENES 8
-#define MAIN_SCENE TITLE_SCREEN_ID
+#define MAIN_SCENE TEST_SCENE_ID
 
 // ECS
 #define MAX_ENTITIES 4096
@@ -38,6 +39,8 @@
 #define SPRITE_ID 1
 #define SPRITE_ANIMATION_ID 2
 #define NUM_COMPONENTS 3
+#define NUM_UPDATABLE_COMPONENTS 1
+#define NUM_DRAWABLE_COMPONENTS 2
 
 // CAMERA
 #define CAMERA_ZINDEX_MIN 0
@@ -47,7 +50,7 @@
 #define CAMERA_ZINDEX_OBJECTS 3
 #define CAMERA_ZINDEX_TOP 4
 #define CAMERA_ZINDEX_SKY 5
-#define CAMERA_ZINDEX_MAX 5
+#define CAMERA_ZINDEX_MAX 6
 #define CAMERA_ZOOM_MIN 0.25f
 #define CAMERA_ZOOM_MAX 2.5f
 

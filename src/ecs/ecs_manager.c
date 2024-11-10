@@ -5,7 +5,7 @@ static ecs_manager_t ecsm;
 
 
 void ecs_manager_init() {
-	camera_init_aux();	
+	
 }
 
 

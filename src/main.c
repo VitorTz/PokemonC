@@ -8,16 +8,17 @@ int main(void) {
 	SetTargetFPS(FPS);
 	const Image icon = LoadImage(ICONS_PATH "pokeball.png");
 	SetWindowIcon(icon);	
-
+	
 	texture_pool_init();
 	ecs_manager_init();
-	scene_manager_init();
+	scene_manager_init();	
 
 	while (!WindowShouldClose()) {
 		scene_manager_update(GetFrameTime());
 		BeginDrawing();
 		ClearBackground(BLACK);		
 		scene_manager_draw();
+		DrawFPS(20, 20);
 		EndDrawing();
 	}
 

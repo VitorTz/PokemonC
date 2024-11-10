@@ -6,9 +6,8 @@ void ecs_init(ecs_t* ecs) {
 	component_manager_init(&ecs->component);
 	system_manager_init(&ecs->system);
 	vector_init(&ecs->static_collisions, sizeof(Rectangle), 1024);
-	vector_init(&ecs->entities_to_destroy, sizeof(entity_t), 512);
-	ecs->camera = (camera_t*) malloc(sizeof(camera_t));
-	camera_init(ecs->camera);
+	vector_init(&ecs->entities_to_destroy, sizeof(entity_t), 512);	
+	camera_init(&ecs->camera);
 	ecs->should_destroy_all_entities = 0;
 }
 
@@ -18,18 +17,26 @@ void ecs_close(ecs_t* ecs) {
 	component_manager_close(&ecs->component);
 	system_manager_close(&ecs->system);
 	vector_close(&ecs->static_collisions);
-	vector_close(&ecs->entities_to_destroy);
-	camera_close(ecs->camera);
-	free(ecs->camera);
+	vector_close(&ecs->entities_to_destroy);		
 }
 
 
-entity_t ecs_entity_create(ecs_t* ecs, const zindex_t zindex, const int add_to_camera) {
+entity_t ecs_entity_create(ecs_t* ecs, const zindex_t zindex) {
 	const entity_t e = entity_manager_create_entity(&ecs->entity);
 	transform_t t;
 	transform_init(&t, zindex);	
 	ecs_component_add(ecs, e, TRANSFORM_ID, &t);	
-	if (add_to_camera) camera_insert(ecs->camera, e, zindex);
+	return e;
+}
+
+
+entity_t ecs_sprite_create(ecs_t* ecs, zindex_t zindex, const char* file_name) {
+	const entity_t e = ecs_entity_create(ecs, zindex);
+	sprite_t* s = (sprite_t*)ecs_component_allocate(ecs, e, SPRITE_ID);
+	transform_t* t = ecs_get_transform(ecs, e);
+	sprite_init(s, file_name);
+	t->size.x = (float)s->texture->width;
+	t->size.y = (float)s->texture->height;
 	return e;
 }
 
@@ -40,8 +47,7 @@ void ecs_entity_destroy(ecs_t* ecs, const entity_t e) {
 
 
 void ecs_destroy_entity_immediate(ecs_t* ecs, const entity_t e) {
-	const zindex_t z = ecs_get_transform(ecs, e)->zindex;
-	camera_erase(ecs->camera, e, z);
+	const zindex_t z = ecs_get_transform(ecs, e)->zindex;	
 	entity_manager_destroy_entity(&ecs->entity, e);
 	component_manager_entity_destroy(&ecs->component, e);
 	system_manager_entity_destroy(&ecs->system, e);
@@ -70,6 +76,7 @@ void* ecs_component_allocate(ecs_t* ecs, entity_t e, component_t id) {
 
 
 void ecs_update(ecs_t* ecs, const float dt) {
+	camera_handle_input(&ecs->camera, dt);
 	system_manager_update(&ecs->system, dt);
 
 	if (ecs->should_destroy_all_entities) {
@@ -87,7 +94,7 @@ void ecs_update(ecs_t* ecs, const float dt) {
 
 
 void ecs_draw(ecs_t* ecs) {
-	camera_draw(ecs->camera, &ecs->system);
+	system_manager_draw(&ecs->system);
 }
 
 
@@ -96,8 +103,7 @@ void ecs_destroy_all_entities(ecs_t* ecs) {
 }
 
 
-void ecs_destroy_all_entities_immediate(ecs_t* ecs) {
-	camera_clear(ecs->camera);
+void ecs_destroy_all_entities_immediate(ecs_t* ecs) {	
 	entity_manager_clear(&ecs->entity);
 	component_manager_clear(&ecs->component);
 	system_manager_clear(&ecs->system);

@@ -15,12 +15,12 @@ typedef struct system {
 } system_t;
 
 
-typedef struct system_manager {
-	system_t* systems;
-	hash_map_t component_to_entities_map;
-	hash_map_t entities_to_drawable_components_map;
-	hash_set_t drawable_components;
-	vector_t system_order;
+typedef struct system_manager {	
+	system_t systems[NUM_COMPONENTS];
+	component_t update_order[NUM_UPDATABLE_COMPONENTS];
+	component_t draw_order[NUM_DRAWABLE_COMPONENTS];	
+	hash_set_t components_to_entities[NUM_COMPONENTS];
+	entity_pair_t* entity_pair_vec;
 } system_manager_t;
 
 
@@ -30,13 +30,15 @@ void system_manager_close(system_manager_t* s);
 
 void system_manager_add(system_manager_t* s, entity_t e, component_t id);
 
-void system_manager_update(system_manager_t* s, float dt);
-
-void system_manager_draw(system_manager_t* s, vector_t* entities);
-
 void system_manager_entity_destroy(system_manager_t* s, entity_t e);
 
+void system_manager_update(system_manager_t* s, float dt);
+
+void system_manager_draw(system_manager_t* s);
+
 void system_manager_clear(system_manager_t* s);
+
+hash_set_t* system_manager_get_entities_from_system(system_manager_t* s, component_t id);
 
 
 // Systems

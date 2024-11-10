@@ -274,6 +274,24 @@ build CMakeFiles\PokemonC.dir\src\ecs\components.c.obj: C_COMPILER__PokemonC_uns
   TARGET_COMPILE_PDB = CMakeFiles\PokemonC.dir\
   TARGET_PDB = PokemonC\PokemonC.pdb
 
+build CMakeFiles\PokemonC.dir\src\util\mstring.c.obj: C_COMPILER__PokemonC_unscanned_Debug C$:\Users\vitor\source\repos\PokemonC\src\util\mstring.c || cmake_object_order_depends_target_PokemonC
+  DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
+  FLAGS = /DWIN32 /D_WINDOWS /Ob0 /Od /RTC1 -MDd -Zi
+  INCLUDES = -IC:\Users\vitor\source\repos\PokemonC\out\build\x64-Debug\_deps\raylib-src\src -IC:\Users\vitor\source\repos\PokemonC\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include
+  OBJECT_DIR = CMakeFiles\PokemonC.dir
+  OBJECT_FILE_DIR = CMakeFiles\PokemonC.dir\src\util
+  TARGET_COMPILE_PDB = CMakeFiles\PokemonC.dir\
+  TARGET_PDB = PokemonC\PokemonC.pdb
+
+build CMakeFiles\PokemonC.dir\src\util\ordered_entity_vec.c.obj: C_COMPILER__PokemonC_unscanned_Debug C$:\Users\vitor\source\repos\PokemonC\src\util\ordered_entity_vec.c || cmake_object_order_depends_target_PokemonC
+  DEFINES = -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP
+  FLAGS = /DWIN32 /D_WINDOWS /Ob0 /Od /RTC1 -MDd -Zi
+  INCLUDES = -IC:\Users\vitor\source\repos\PokemonC\out\build\x64-Debug\_deps\raylib-src\src -IC:\Users\vitor\source\repos\PokemonC\out\build\x64-Debug\_deps\raylib-src\src\external\glfw\include
+  OBJECT_DIR = CMakeFiles\PokemonC.dir
+  OBJECT_FILE_DIR = CMakeFiles\PokemonC.dir\src\util
+  TARGET_COMPILE_PDB = CMakeFiles\PokemonC.dir\
+  TARGET_PDB = PokemonC\PokemonC.pdb
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target PokemonC
@@ -282,7 +300,7 @@ build CMakeFiles\PokemonC.dir\src\ecs\components.c.obj: C_COMPILER__PokemonC_uns
 #############################################
 # Link the executable PokemonC\PokemonC.exe
 
-build PokemonC\PokemonC.exe: C_EXECUTABLE_LINKER__PokemonC_Debug CMakeFiles\PokemonC.dir\src\main.c.obj CMakeFiles\PokemonC.dir\src\util\util.c.obj CMakeFiles\PokemonC.dir\src\util\vector.c.obj CMakeFiles\PokemonC.dir\src\util\hash_map.c.obj CMakeFiles\PokemonC.dir\src\util\texture_pool.c.obj CMakeFiles\PokemonC.dir\src\scene\scene.c.obj CMakeFiles\PokemonC.dir\src\scene\scene_title_screen.c.obj CMakeFiles\PokemonC.dir\src\scene\scene_world.c.obj CMakeFiles\PokemonC.dir\src\scene\scene_fire_arena.c.obj CMakeFiles\PokemonC.dir\src\scene\scene_plant_arena.c.obj CMakeFiles\PokemonC.dir\src\scene\scene_water_arena.c.obj CMakeFiles\PokemonC.dir\src\scene\scene_hospital.c.obj CMakeFiles\PokemonC.dir\src\scene\scene_house.c.obj CMakeFiles\PokemonC.dir\src\scene\scene_test.c.obj CMakeFiles\PokemonC.dir\src\util\image.c.obj CMakeFiles\PokemonC.dir\src\ecs\entity_manager.c.obj CMakeFiles\PokemonC.dir\src\ecs\component_manager.c.obj CMakeFiles\PokemonC.dir\src\util\hash_set.c.obj CMakeFiles\PokemonC.dir\src\ecs\system_manager.c.obj CMakeFiles\PokemonC.dir\src\ecs\ecs.c.obj CMakeFiles\PokemonC.dir\src\util\camera.c.obj CMakeFiles\PokemonC.dir\src\ecs\ecs_manager.c.obj CMakeFiles\PokemonC.dir\src\ecs\system_sprite.c.obj CMakeFiles\PokemonC.dir\src\ecs\system_sprite_animation.c.obj CMakeFiles\PokemonC.dir\src\ecs\components.c.obj | _deps\raylib-build\raylib\raylib.lib _deps\raylib-build\raylib\external\glfw\src\glfw3.lib || _deps\raylib-build\raylib\external\glfw\src\glfw3.lib _deps\raylib-build\raylib\raylib.lib
+build PokemonC\PokemonC.exe: C_EXECUTABLE_LINKER__PokemonC_Debug CMakeFiles\PokemonC.dir\src\main.c.obj CMakeFiles\PokemonC.dir\src\util\util.c.obj CMakeFiles\PokemonC.dir\src\util\vector.c.obj CMakeFiles\PokemonC.dir\src\util\hash_map.c.obj CMakeFiles\PokemonC.dir\src\util\texture_pool.c.obj CMakeFiles\PokemonC.dir\src\scene\scene.c.obj CMakeFiles\PokemonC.dir\src\scene\scene_title_screen.c.obj CMakeFiles\PokemonC.dir\src\scene\scene_world.c.obj CMakeFiles\PokemonC.dir\src\scene\scene_fire_arena.c.obj CMakeFiles\PokemonC.dir\src\scene\scene_plant_arena.c.obj CMakeFiles\PokemonC.dir\src\scene\scene_water_arena.c.obj CMakeFiles\PokemonC.dir\src\scene\scene_hospital.c.obj CMakeFiles\PokemonC.dir\src\scene\scene_house.c.obj CMakeFiles\PokemonC.dir\src\scene\scene_test.c.obj CMakeFiles\PokemonC.dir\src\util\image.c.obj CMakeFiles\PokemonC.dir\src\ecs\entity_manager.c.obj CMakeFiles\PokemonC.dir\src\ecs\component_manager.c.obj CMakeFiles\PokemonC.dir\src\util\hash_set.c.obj CMakeFiles\PokemonC.dir\src\ecs\system_manager.c.obj CMakeFiles\PokemonC.dir\src\ecs\ecs.c.obj CMakeFiles\PokemonC.dir\src\util\camera.c.obj CMakeFiles\PokemonC.dir\src\ecs\ecs_manager.c.obj CMakeFiles\PokemonC.dir\src\ecs\system_sprite.c.obj CMakeFiles\PokemonC.dir\src\ecs\system_sprite_animation.c.obj CMakeFiles\PokemonC.dir\src\ecs\components.c.obj CMakeFiles\PokemonC.dir\src\util\mstring.c.obj CMakeFiles\PokemonC.dir\src\util\ordered_entity_vec.c.obj | _deps\raylib-build\raylib\raylib.lib _deps\raylib-build\raylib\external\glfw\src\glfw3.lib || _deps\raylib-build\raylib\external\glfw\src\glfw3.lib _deps\raylib-build\raylib\raylib.lib
   FLAGS = /DWIN32 /D_WINDOWS /Ob0 /Od /RTC1 -MDd -Zi
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = _deps\raylib-build\raylib\raylib.lib  opengl32.lib  glu32.lib  winmm.lib  _deps\raylib-build\raylib\external\glfw\src\glfw3.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib

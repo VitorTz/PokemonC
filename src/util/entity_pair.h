@@ -3,6 +3,7 @@
 
 
 typedef struct entity_pair {
-	entity_t e;
+	zindex_t zindex;
 	float y;
+	entity_t e;
 } entity_pair_t;

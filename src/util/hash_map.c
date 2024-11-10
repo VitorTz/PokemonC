@@ -6,7 +6,7 @@ void hash_map_init(
 	const size_t v_size,
 	const size_t nbuckets,
 	size_t(*hash)(const void*)
-) {
+) {	
 	h->buckets = (vector_t*)malloc(sizeof(vector_t) * nbuckets);
 	h->hash = hash;
 	h->nbuckets = nbuckets;

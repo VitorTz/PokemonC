@@ -5,7 +5,7 @@
 
 
 typedef struct entity_manager {
-	vector_t entities;	
+	entity_t* entities;
 	size_t size;
 } entity_manager_t;
 

@@ -9,10 +9,10 @@ typedef struct ecs {
 	entity_manager_t entity;
 	component_manager_t component;
 	system_manager_t system;
+	camera_t camera;
 	vector_t static_collisions;
 	vector_t entities_to_destroy;
-	int should_destroy_all_entities;
-	camera_t* camera;
+	int should_destroy_all_entities;	
 } ecs_t;
 
 
@@ -20,7 +20,9 @@ void ecs_init(ecs_t* ecs);
 
 void ecs_close(ecs_t* ecs);
 
-entity_t ecs_entity_create(ecs_t* ecs, zindex_t zindex, int add_to_camera);
+entity_t ecs_entity_create(ecs_t* ecs, zindex_t zindex);
+
+entity_t ecs_sprite_create(ecs_t* ecs, zindex_t zindex, const char* file_name);
 
 void ecs_entity_destroy(ecs_t* ecs, entity_t e);
 

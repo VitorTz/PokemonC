@@ -6,7 +6,7 @@
 #include "components.h"
 
 typedef struct component_manager {
-	hash_map_t* component_map;
+	hash_map_t components[NUM_COMPONENTS];	
 } component_manager_t;
 
 

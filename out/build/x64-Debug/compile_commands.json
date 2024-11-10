@@ -151,6 +151,18 @@
 },
 {
   "directory": "C:/Users/vitor/source/repos/PokemonC/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe  /nologo -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -IC:\\Users\\vitor\\source\\repos\\PokemonC\\out\\build\\x64-Debug\\_deps\\raylib-src\\src -IC:\\Users\\vitor\\source\\repos\\PokemonC\\out\\build\\x64-Debug\\_deps\\raylib-src\\src\\external\\glfw\\include /DWIN32 /D_WINDOWS /Ob0 /Od /RTC1 -MDd -Zi /FoCMakeFiles\\PokemonC.dir\\src\\util\\mstring.c.obj /FdCMakeFiles\\PokemonC.dir\\ /FS -c C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\mstring.c",
+  "file": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\mstring.c",
+  "output": "CMakeFiles\\PokemonC.dir\\src\\util\\mstring.c.obj"
+},
+{
+  "directory": "C:/Users/vitor/source/repos/PokemonC/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe  /nologo -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -IC:\\Users\\vitor\\source\\repos\\PokemonC\\out\\build\\x64-Debug\\_deps\\raylib-src\\src -IC:\\Users\\vitor\\source\\repos\\PokemonC\\out\\build\\x64-Debug\\_deps\\raylib-src\\src\\external\\glfw\\include /DWIN32 /D_WINDOWS /Ob0 /Od /RTC1 -MDd -Zi /FoCMakeFiles\\PokemonC.dir\\src\\util\\ordered_entity_vec.c.obj /FdCMakeFiles\\PokemonC.dir\\ /FS -c C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\ordered_entity_vec.c",
+  "file": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\ordered_entity_vec.c",
+  "output": "CMakeFiles\\PokemonC.dir\\src\\util\\ordered_entity_vec.c.obj"
+},
+{
+  "directory": "C:/Users/vitor/source/repos/PokemonC/out/build/x64-Debug",
   "command": "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe  /nologo -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -D_CRT_SECURE_NO_WARNINGS -IC:\\Users\\vitor\\source\\repos\\PokemonC\\out\\build\\x64-Debug\\_deps\\raylib-src\\src -external:IC:\\Users\\vitor\\source\\repos\\PokemonC\\out\\build\\x64-Debug\\_deps\\raylib-src\\src\\external\\glfw\\include -external:W0 /DWIN32 /D_WINDOWS /Ob0 /Od /RTC1 -MDd -Zi /Fo_deps\\raylib-build\\raylib\\CMakeFiles\\raylib.dir\\rcore.c.obj /Fd_deps\\raylib-build\\raylib\\CMakeFiles\\raylib.dir\\raylib.pdb /FS -c C:\\Users\\vitor\\source\\repos\\PokemonC\\out\\build\\x64-Debug\\_deps\\raylib-src\\src\\rcore.c",
   "file": "C:\\Users\\vitor\\source\\repos\\PokemonC\\out\\build\\x64-Debug\\_deps\\raylib-src\\src\\rcore.c",
   "output": "_deps\\raylib-build\\raylib\\CMakeFiles\\raylib.dir\\rcore.c.obj"
