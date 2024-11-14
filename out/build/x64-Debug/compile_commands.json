@@ -7,15 +7,45 @@
 },
 {
   "directory": "C:/Users/vitor/source/repos/PokemonC/out/build/x64-Debug",
-  "command": "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -IC:\\Users\\vitor\\source\\repos\\PokemonC\\out\\build\\x64-Debug\\_deps\\raylib-src\\src -IC:\\Users\\vitor\\source\\repos\\PokemonC\\out\\build\\x64-Debug\\_deps\\raylib-src\\src\\external\\glfw\\include /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi /FoCMakeFiles\\PokemonC.dir\\src\\util\\TexturePool.cpp.obj /FdCMakeFiles\\PokemonC.dir\\ /FS -c C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\TexturePool.cpp",
-  "file": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\TexturePool.cpp",
-  "output": "CMakeFiles\\PokemonC.dir\\src\\util\\TexturePool.cpp.obj"
+  "command": "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -IC:\\Users\\vitor\\source\\repos\\PokemonC\\out\\build\\x64-Debug\\_deps\\raylib-src\\src -IC:\\Users\\vitor\\source\\repos\\PokemonC\\out\\build\\x64-Debug\\_deps\\raylib-src\\src\\external\\glfw\\include /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi /FoCMakeFiles\\PokemonC.dir\\src\\ecs\\SystemManager.cpp.obj /FdCMakeFiles\\PokemonC.dir\\ /FS -c C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\SystemManager.cpp",
+  "file": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\SystemManager.cpp",
+  "output": "CMakeFiles\\PokemonC.dir\\src\\ecs\\SystemManager.cpp.obj"
 },
 {
   "directory": "C:/Users/vitor/source/repos/PokemonC/out/build/x64-Debug",
-  "command": "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -IC:\\Users\\vitor\\source\\repos\\PokemonC\\out\\build\\x64-Debug\\_deps\\raylib-src\\src -IC:\\Users\\vitor\\source\\repos\\PokemonC\\out\\build\\x64-Debug\\_deps\\raylib-src\\src\\external\\glfw\\include /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi /FoCMakeFiles\\PokemonC.dir\\src\\util\\util.cpp.obj /FdCMakeFiles\\PokemonC.dir\\ /FS -c C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\util.cpp",
-  "file": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\util.cpp",
-  "output": "CMakeFiles\\PokemonC.dir\\src\\util\\util.cpp.obj"
+  "command": "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -IC:\\Users\\vitor\\source\\repos\\PokemonC\\out\\build\\x64-Debug\\_deps\\raylib-src\\src -IC:\\Users\\vitor\\source\\repos\\PokemonC\\out\\build\\x64-Debug\\_deps\\raylib-src\\src\\external\\glfw\\include /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi /FoCMakeFiles\\PokemonC.dir\\src\\ecs\\EntityManager.cpp.obj /FdCMakeFiles\\PokemonC.dir\\ /FS -c C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\EntityManager.cpp",
+  "file": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\EntityManager.cpp",
+  "output": "CMakeFiles\\PokemonC.dir\\src\\ecs\\EntityManager.cpp.obj"
+},
+{
+  "directory": "C:/Users/vitor/source/repos/PokemonC/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -IC:\\Users\\vitor\\source\\repos\\PokemonC\\out\\build\\x64-Debug\\_deps\\raylib-src\\src -IC:\\Users\\vitor\\source\\repos\\PokemonC\\out\\build\\x64-Debug\\_deps\\raylib-src\\src\\external\\glfw\\include /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi /FoCMakeFiles\\PokemonC.dir\\src\\ecs\\SystemSprite.cpp.obj /FdCMakeFiles\\PokemonC.dir\\ /FS -c C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\SystemSprite.cpp",
+  "file": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\SystemSprite.cpp",
+  "output": "CMakeFiles\\PokemonC.dir\\src\\ecs\\SystemSprite.cpp.obj"
+},
+{
+  "directory": "C:/Users/vitor/source/repos/PokemonC/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -IC:\\Users\\vitor\\source\\repos\\PokemonC\\out\\build\\x64-Debug\\_deps\\raylib-src\\src -IC:\\Users\\vitor\\source\\repos\\PokemonC\\out\\build\\x64-Debug\\_deps\\raylib-src\\src\\external\\glfw\\include /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi /FoCMakeFiles\\PokemonC.dir\\src\\ecs\\SystemSpriteAnimation.cpp.obj /FdCMakeFiles\\PokemonC.dir\\ /FS -c C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\SystemSpriteAnimation.cpp",
+  "file": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\SystemSpriteAnimation.cpp",
+  "output": "CMakeFiles\\PokemonC.dir\\src\\ecs\\SystemSpriteAnimation.cpp.obj"
+},
+{
+  "directory": "C:/Users/vitor/source/repos/PokemonC/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -IC:\\Users\\vitor\\source\\repos\\PokemonC\\out\\build\\x64-Debug\\_deps\\raylib-src\\src -IC:\\Users\\vitor\\source\\repos\\PokemonC\\out\\build\\x64-Debug\\_deps\\raylib-src\\src\\external\\glfw\\include /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi /FoCMakeFiles\\PokemonC.dir\\src\\ecs\\ECS.cpp.obj /FdCMakeFiles\\PokemonC.dir\\ /FS -c C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\ECS.cpp",
+  "file": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\ECS.cpp",
+  "output": "CMakeFiles\\PokemonC.dir\\src\\ecs\\ECS.cpp.obj"
+},
+{
+  "directory": "C:/Users/vitor/source/repos/PokemonC/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -IC:\\Users\\vitor\\source\\repos\\PokemonC\\out\\build\\x64-Debug\\_deps\\raylib-src\\src -IC:\\Users\\vitor\\source\\repos\\PokemonC\\out\\build\\x64-Debug\\_deps\\raylib-src\\src\\external\\glfw\\include /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi /FoCMakeFiles\\PokemonC.dir\\src\\ecs\\ComponentManager.cpp.obj /FdCMakeFiles\\PokemonC.dir\\ /FS -c C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\ComponentManager.cpp",
+  "file": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\ComponentManager.cpp",
+  "output": "CMakeFiles\\PokemonC.dir\\src\\ecs\\ComponentManager.cpp.obj"
+},
+{
+  "directory": "C:/Users/vitor/source/repos/PokemonC/out/build/x64-Debug",
+  "command": "C:\\PROGRA~1\\MICROS~1\\2022\\COMMUN~1\\VC\\Tools\\MSVC\\1441~1.341\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -DGRAPHICS_API_OPENGL_33 -DPLATFORM_DESKTOP -IC:\\Users\\vitor\\source\\repos\\PokemonC\\out\\build\\x64-Debug\\_deps\\raylib-src\\src -IC:\\Users\\vitor\\source\\repos\\PokemonC\\out\\build\\x64-Debug\\_deps\\raylib-src\\src\\external\\glfw\\include /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++17 -MDd -Zi /FoCMakeFiles\\PokemonC.dir\\src\\ecs\\Camera.cpp.obj /FdCMakeFiles\\PokemonC.dir\\ /FS -c C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\Camera.cpp",
+  "file": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\Camera.cpp",
+  "output": "CMakeFiles\\PokemonC.dir\\src\\ecs\\Camera.cpp.obj"
 },
 {
   "directory": "C:/Users/vitor/source/repos/PokemonC/out/build/x64-Debug",

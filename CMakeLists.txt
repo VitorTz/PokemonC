@@ -1,10 +1,11 @@
 cmake_minimum_required(VERSION 3.22...3.30)
 project(PokemonC)
 
-set(CMAKE_CXX_STANDARD 17)
-set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 include(FetchContent)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # Generate compile_commands.json
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
@@ -22,7 +23,7 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(raylib)
 
 # Our Project
-add_executable(${PROJECT_NAME} "src/main.cpp" "src/constants.h" "src/util/TexturePool.h" "src/util/TexturePool.cpp" "src/util/util.h" "src/util/util.cpp")
+add_executable(${PROJECT_NAME} "src/main.cpp" "src/ecs/components.h" "src/constants.h" "src/ecs/ComponentManager.h" "src/ecs/SystemManager.h" "src/ecs/SystemManager.cpp" "src/ecs/EntityManager.h" "src/ecs/EntityManager.cpp" "src/ecs/SystemSprite.cpp" "src/ecs/SystemSpriteAnimation.cpp" "src/ecs/ECS.h" "src/scene/SceneId.h" "src/ecs/ECS.cpp" "src/ecs/ComponentManager.cpp" "src/ecs/Camera.h" "src/ecs/Camera.cpp")
 
 set_target_properties(${PROJECT_NAME} PROPERTIES
     RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/${PROJECT_NAME})
