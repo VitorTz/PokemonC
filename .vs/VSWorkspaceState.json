@@ -10,11 +10,8 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\ecs",
-    "\\src\\resources",
-    "\\src\\scene",
     "\\src\\util"
   ],
-  "SelectedNode": "\\src\\util\\util.c",
+  "SelectedNode": "\\src\\main.cpp",
   "PreviewInSolutionExplorer": false
 }

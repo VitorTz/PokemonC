@@ -3,136 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\vitor\\source\\repos\\PokemonC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\scene\\scene_test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\scene\\scene_test.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vitor\\Source\\Repos\\PokemonC\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\system_manager.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\ecs\\system_manager.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vitor\\Source\\Repos\\PokemonC\\src\\util\\TexturePool.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\util\\TexturePool.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\util.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\util\\util.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\util.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\util\\util.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\camera.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\util\\camera.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\ecs.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\ecs\\ecs.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\ecs.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\ecs\\ecs.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\util\\camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\entity_manager.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\ecs\\entity_manager.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\entity_pair.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\util\\entity_pair.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\component_manager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\ecs\\component_manager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\components.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\ecs\\components.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\entity_manager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\ecs\\entity_manager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\component_manager.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\ecs\\component_manager.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\system_manager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\ecs\\system_manager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\scene\\scene_world.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\scene\\scene_world.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\constants.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\util\\constants.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\ordered_entity_vec.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\util\\ordered_entity_vec.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\ecs_manager.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\ecs\\ecs_manager.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vitor\\Source\\Repos\\PokemonC\\src\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\hash_map.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\util\\hash_map.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\vector.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\util\\vector.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\scene\\scene_title_screen.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\scene\\scene_title_screen.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\pokemon.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\pokemon.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\mstring.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\util\\mstring.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\mstring.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\util\\mstring.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\TexturePool.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\util\\TexturePool.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vitor\\source\\repos\\PokemonC\\CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\image.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\util\\image.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\util.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\util\\util.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vitor\\source\\repos\\PokemonC\\CMakeSettings.json||{10608CD5-279C-4A28-BD5F-BA2CFCE06219}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CMakeSettings.json||{10608CD5-279C-4A28-BD5F-BA2CFCE06219}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\util.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\util\\util.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\system_sprite.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\ecs\\system_sprite.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\scene\\scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\scene\\scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\system_sprite_animation.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\ecs\\system_sprite_animation.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\vector.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\util\\vector.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\constants.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\constants.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -141,441 +37,102 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 339,
+          "DockedWidth": 277,
           "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "main.c",
-              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\main.c",
-              "RelativeDocumentMoniker": "src\\main.c",
-              "ToolTip": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\main.c",
-              "RelativeToolTip": "src\\main.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-11-09T13:20:05.783Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "vector.h",
-              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\vector.h",
-              "RelativeDocumentMoniker": "src\\util\\vector.h",
-              "ToolTip": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\vector.h",
-              "RelativeToolTip": "src\\util\\vector.h",
-              "ViewState": "AgIAAAoAAAAAAAAAAAApwB8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-09T17:52:25.538Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "util.h",
-              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\util.h",
-              "RelativeDocumentMoniker": "src\\util\\util.h",
-              "ToolTip": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\util.h",
-              "RelativeToolTip": "src\\util\\util.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-09T23:51:30.816Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ecs.h",
-              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\ecs.h",
-              "RelativeDocumentMoniker": "src\\ecs\\ecs.h",
-              "ToolTip": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\ecs.h",
-              "RelativeToolTip": "src\\ecs\\ecs.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "TexturePool.h",
+              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\TexturePool.h",
+              "RelativeDocumentMoniker": "src\\util\\TexturePool.h",
+              "ToolTip": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\TexturePool.h",
+              "RelativeToolTip": "src\\util\\TexturePool.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-09T21:36:28.656Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "system_manager.c",
-              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\system_manager.c",
-              "RelativeDocumentMoniker": "src\\ecs\\system_manager.c",
-              "ToolTip": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\system_manager.c",
-              "RelativeToolTip": "src\\ecs\\system_manager.c",
-              "ViewState": "AgIAADEAAAAAAAAAAAAAAFcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-11-09T22:21:40.179Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "scene_test.c",
-              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\scene\\scene_test.c",
-              "RelativeDocumentMoniker": "src\\scene\\scene_test.c",
-              "ToolTip": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\scene\\scene_test.c",
-              "RelativeToolTip": "src\\scene\\scene_test.c",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAgwAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-11-09T23:40:26.258Z",
+              "WhenOpened": "2024-11-14T01:12:38.331Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "camera.c",
-              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\camera.c",
-              "RelativeDocumentMoniker": "src\\util\\camera.c",
-              "ToolTip": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\camera.c",
-              "RelativeToolTip": "src\\util\\camera.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-11-09T22:43:19.003Z",
+              "Title": "util.cpp",
+              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\util.cpp",
+              "RelativeDocumentMoniker": "src\\util\\util.cpp",
+              "ToolTip": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\util.cpp",
+              "RelativeToolTip": "src\\util\\util.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-14T01:07:48.296Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ecs.c",
-              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\ecs.c",
-              "RelativeDocumentMoniker": "src\\ecs\\ecs.c",
-              "ToolTip": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\ecs.c",
-              "RelativeToolTip": "src\\ecs\\ecs.c",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAgwE4AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-11-09T21:36:54.519Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "util.c",
-              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\util.c",
-              "RelativeDocumentMoniker": "src\\util\\util.c",
-              "ToolTip": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\util.c",
-              "RelativeToolTip": "src\\util\\util.c",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAUwF0AAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-11-09T23:51:54.92Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "entity_manager.c",
-              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\entity_manager.c",
-              "RelativeDocumentMoniker": "src\\ecs\\entity_manager.c",
-              "ToolTip": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\entity_manager.c",
-              "RelativeToolTip": "src\\ecs\\entity_manager.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-11-09T22:27:30.899Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "entity_pair.h",
-              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\entity_pair.h",
-              "RelativeDocumentMoniker": "src\\util\\entity_pair.h",
-              "ToolTip": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\entity_pair.h",
-              "RelativeToolTip": "src\\util\\entity_pair.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAMAAAAAAAAAA==",
+              "Title": "util.h",
+              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\util.h",
+              "RelativeDocumentMoniker": "src\\util\\util.h",
+              "ToolTip": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\util.h",
+              "RelativeToolTip": "src\\util\\util.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-10T10:26:17.843Z",
+              "WhenOpened": "2024-11-14T01:07:17.208Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "component_manager.c",
-              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\component_manager.c",
-              "RelativeDocumentMoniker": "src\\ecs\\component_manager.c",
-              "ToolTip": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\component_manager.c",
-              "RelativeToolTip": "src\\ecs\\component_manager.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-11-09T21:35:26.361Z",
+              "DocumentIndex": 1,
+              "Title": "TexturePool.cpp",
+              "DocumentMoniker": "C:\\Users\\vitor\\Source\\Repos\\PokemonC\\src\\util\\TexturePool.cpp",
+              "RelativeDocumentMoniker": "src\\util\\TexturePool.cpp",
+              "ToolTip": "C:\\Users\\vitor\\Source\\Repos\\PokemonC\\src\\util\\TexturePool.cpp",
+              "RelativeToolTip": "src\\util\\TexturePool.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-14T01:06:20.079Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 6,
               "Title": "constants.h",
-              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\constants.h",
-              "RelativeDocumentMoniker": "src\\util\\constants.h",
-              "ToolTip": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\constants.h",
-              "RelativeToolTip": "src\\util\\constants.h",
-              "ViewState": "AgIAACAAAAAAAAAAAAAQwDQAAAAbAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\constants.h",
+              "RelativeDocumentMoniker": "src\\constants.h",
+              "ToolTip": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\constants.h",
+              "RelativeToolTip": "src\\constants.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-09T23:58:37.751Z",
+              "WhenOpened": "2024-11-14T00:59:46.901Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "hash_map.c",
-              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\hash_map.c",
-              "RelativeDocumentMoniker": "src\\util\\hash_map.c",
-              "ToolTip": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\hash_map.c",
-              "RelativeToolTip": "src\\util\\hash_map.c",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwCEAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-11-09T23:01:08.725Z",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\vitor\\Source\\Repos\\PokemonC\\src\\main.cpp",
+              "RelativeDocumentMoniker": "src\\main.cpp",
+              "ToolTip": "C:\\Users\\vitor\\Source\\Repos\\PokemonC\\src\\main.cpp",
+              "RelativeToolTip": "src\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-11-14T00:59:13.88Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "vector.c",
-              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\vector.c",
-              "RelativeDocumentMoniker": "src\\util\\vector.c",
-              "ToolTip": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\vector.c",
-              "RelativeToolTip": "src\\util\\vector.c",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAUwB4AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-11-09T23:01:01.188Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "scene_title_screen.c",
-              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\scene\\scene_title_screen.c",
-              "RelativeDocumentMoniker": "src\\scene\\scene_title_screen.c",
-              "ToolTip": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\scene\\scene_title_screen.c",
-              "RelativeToolTip": "src\\scene\\scene_title_screen.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-11-10T08:55:18.854Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "mstring.h",
-              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\mstring.h",
-              "RelativeDocumentMoniker": "src\\util\\mstring.h",
-              "ToolTip": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\mstring.h",
-              "RelativeToolTip": "src\\util\\mstring.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-09T23:43:50.981Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 3,
               "Title": "CMakeLists.txt",
               "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\PokemonC\\CMakeLists.txt",
               "RelativeDocumentMoniker": "CMakeLists.txt",
               "ToolTip": "C:\\Users\\vitor\\source\\repos\\PokemonC\\CMakeLists.txt",
               "RelativeToolTip": "CMakeLists.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAACIBAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAABjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-11-09T23:56:03.223Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "pokemon.h",
-              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\pokemon.h",
-              "RelativeDocumentMoniker": "src\\pokemon.h",
-              "ToolTip": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\pokemon.h",
-              "RelativeToolTip": "src\\pokemon.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-10T00:03:46.416Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "image.h",
-              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\image.h",
-              "RelativeDocumentMoniker": "src\\util\\image.h",
-              "ToolTip": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\image.h",
-              "RelativeToolTip": "src\\util\\image.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-09T23:55:25.546Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "CMakeSettings.json",
-              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\PokemonC\\CMakeSettings.json",
-              "RelativeDocumentMoniker": "CMakeSettings.json",
-              "ToolTip": "C:\\Users\\vitor\\source\\repos\\PokemonC\\CMakeSettings.json",
-              "RelativeToolTip": "CMakeSettings.json",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-09T23:54:57.808Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "mstring.c",
-              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\mstring.c",
-              "RelativeDocumentMoniker": "src\\util\\mstring.c",
-              "ToolTip": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\mstring.c",
-              "RelativeToolTip": "src\\util\\mstring.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-11-09T23:43:41.492Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 202,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "camera.h",
-              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\camera.h",
-              "RelativeDocumentMoniker": "src\\util\\camera.h",
-              "ToolTip": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\camera.h",
-              "RelativeToolTip": "src\\util\\camera.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-10T10:04:08.583Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "entity_manager.h",
-              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\entity_manager.h",
-              "RelativeDocumentMoniker": "src\\ecs\\entity_manager.h",
-              "ToolTip": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\entity_manager.h",
-              "RelativeToolTip": "src\\ecs\\entity_manager.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-10T13:10:59.57Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "component_manager.h",
-              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\component_manager.h",
-              "RelativeDocumentMoniker": "src\\ecs\\component_manager.h",
-              "ToolTip": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\component_manager.h",
-              "RelativeToolTip": "src\\ecs\\component_manager.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-09T21:35:03.268Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "components.h",
-              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\components.h",
-              "RelativeDocumentMoniker": "src\\ecs\\components.h",
-              "ToolTip": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\components.h",
-              "RelativeToolTip": "src\\ecs\\components.h",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-10T12:32:36.058Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ordered_entity_vec.h",
-              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\ordered_entity_vec.h",
-              "RelativeDocumentMoniker": "src\\util\\ordered_entity_vec.h",
-              "ToolTip": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\util\\ordered_entity_vec.h",
-              "RelativeToolTip": "src\\util\\ordered_entity_vec.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAABVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-10T10:01:45.415Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "system_manager.h",
-              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\system_manager.h",
-              "RelativeDocumentMoniker": "src\\ecs\\system_manager.h",
-              "ToolTip": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\system_manager.h",
-              "RelativeToolTip": "src\\ecs\\system_manager.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-09T22:23:02.316Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "scene_world.c",
-              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\scene\\scene_world.c",
-              "RelativeDocumentMoniker": "src\\scene\\scene_world.c",
-              "ToolTip": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\scene\\scene_world.c",
-              "RelativeToolTip": "src\\scene\\scene_world.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-11-09T22:27:02.267Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ecs_manager.c",
-              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\ecs_manager.c",
-              "RelativeDocumentMoniker": "src\\ecs\\ecs_manager.c",
-              "ToolTip": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\ecs_manager.c",
-              "RelativeToolTip": "src\\ecs\\ecs_manager.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-11-09T22:36:11.989Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "system_sprite.c",
-              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\system_sprite.c",
-              "RelativeDocumentMoniker": "src\\ecs\\system_sprite.c",
-              "ToolTip": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\system_sprite.c",
-              "RelativeToolTip": "src\\ecs\\system_sprite.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-11-09T22:23:36.88Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "scene.h",
-              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\scene\\scene.h",
-              "RelativeDocumentMoniker": "src\\scene\\scene.h",
-              "ToolTip": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\scene\\scene.h",
-              "RelativeToolTip": "src\\scene\\scene.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-11-09T22:27:09.931Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "system_sprite_animation.c",
-              "DocumentMoniker": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\system_sprite_animation.c",
-              "RelativeDocumentMoniker": "src\\ecs\\system_sprite_animation.c",
-              "ToolTip": "C:\\Users\\vitor\\source\\repos\\PokemonC\\src\\ecs\\system_sprite_animation.c",
-              "RelativeToolTip": "src\\ecs\\system_sprite_animation.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-11-09T21:30:18.62Z",
+              "WhenOpened": "2024-11-14T00:58:50.119Z",
               "EditorCaption": ""
             }
           ]
