@@ -23,7 +23,7 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(raylib)
 
 # Our Project
-add_executable(${PROJECT_NAME} "src/main.cpp" "src/ecs/components.h" "src/constants.h" "src/ecs/ComponentManager.h" "src/ecs/SystemManager.h" "src/ecs/SystemManager.cpp" "src/ecs/EntityManager.h" "src/ecs/EntityManager.cpp" "src/ecs/SystemSprite.cpp" "src/ecs/SystemSpriteAnimation.cpp" "src/ecs/ECS.h" "src/scene/SceneId.h" "src/ecs/ECS.cpp" "src/ecs/ComponentManager.cpp" "src/ecs/Camera.h" "src/ecs/Camera.cpp")
+add_executable(${PROJECT_NAME} "src/main.cpp" "src/ecs/component/components.h" "src/constants.h" "src/ecs/component/ComponentManager.h" "src/ecs/system/SystemManager.h" "src/ecs/system/SystemManager.cpp" "src/ecs/entity/EntityManager.h" "src/ecs/entity/EntityManager.cpp" "src/ecs/system/SystemSprite.cpp" "src/ecs/system/SystemSpriteAnimation.cpp" "src/ecs/ECS.h" "src/ecs/ECS.cpp" "src/ecs/component/ComponentManager.cpp" "src/util/Camera.h" "src/util/Camera.cpp" "src/scene/Scene.h" "src/scene/Scene.cpp" "src/scene/TitleScreen.cpp" "src/scene/World.cpp" "src/scene/FireArena.cpp" "src/scene/PlantArena.cpp" "src/scene/WaterArena.cpp" "src/scene/Hospital.cpp" "src/scene/House.cpp" "src/scene/TestScene.cpp" "src/ui/image.h" "src/util/TexturePool.h" "src/util/TexturePool.cpp" "src/util/util.h" "src/util/util.cpp" "src/ecs/component/components.cpp" "src/ecs/system/SystemPlayer.cpp" "src/pokemon.h" "src/ecs/system/SystemCharacter.cpp" "src/util/Collision.h" "src/util/Collision.cpp" "src/util/debug.h" "src/util/debug.cpp")
 
 set_target_properties(${PROJECT_NAME} PROPERTIES
     RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/${PROJECT_NAME})

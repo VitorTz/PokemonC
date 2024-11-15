@@ -10,10 +10,8 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\ecs",
-    "\\src\\scene",
-    "\\src\\util"
+    "\\src\\resources\\data\\maps"
   ],
-  "SelectedNode": "\\src\\ecs\\Camera.cpp",
+  "SelectedNode": "\\src\\ecs",
   "PreviewInSolutionExplorer": false
 }

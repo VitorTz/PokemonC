@@ -1,11 +1,10 @@
 #pragma once
-#include <cassert>
-#include <unordered_map>
-#include "EntityManager.h"
-#include "ComponentManager.h"
-#include "SystemManager.h"
-#include "Camera.h"
-#include "../scene/SceneId.h"
+#include "../pokemon.h"
+#include "entity/EntityManager.h"
+#include "component/ComponentManager.h"
+#include "system/SystemManager.h"
+#include "../util/Collision.h"
+#include "../util/Camera.h"
 
 
 namespace pk {
@@ -15,37 +14,33 @@ namespace pk {
 		pk::ComponentManager component{};
 		std::queue<pk::entity_t> entities_to_destroy{};
 		bool should_destroy_all_entities{ false };	
+		pk::Collision collision{};
 		pk::Camera camera{};
 		pk::SystemManager system{};
 	} ecs_t;	
 
-	class EcsManager {
+	void ecs_create_instance(pk::SceneID scene_id);
+	void ecs_destroy_instance(pk::SceneID scene_id);
+	void ecs_destroy_all_instances();
+	
+	pk::ecs_t* ecs_get_instance(pk::SceneID scene_id);
+	pk::ecs_t* ecs_get_current_instance();
+	void ecs_set_instance(pk::SceneID scene_id);
 
-	private:
-		std::unordered_map<pk::SceneID, std::unique_ptr<pk::ecs_t>> ecs_map{};
-		pk::ecs_t* current_ecs{};
+	pk::entity_t ecs_create_entity(pk::zindex_t zindex, bool add_to_camera);
+	pk::entity_t ecs_create_sprite(pk::zindex_t zindex, const char* path);		
+	pk::entity_t ecs_create_player(Vector2 pos);
 
-	public:
-		void ecs_create(pk::SceneID scene_id);
+	void ecs_destroy_entity(pk::entity_t e);
+	void ecs_destroy_all_entities();
 
-		void ecs_destroy(pk::SceneID scene_id);
+	bool ecs_check_collision(const Rectangle& rect);
+	
+	void* ecs_add_component(pk::entity_t e, pk::component_t id);
+	void* ecs_get_component(pk::entity_t e, pk::component_t id);
+	transform_t* ecs_get_transform(pk::entity_t e);
 
-		void ecs_set(pk::SceneID scene_od);
-
-		pk::entity_t entity_create(pk::zindex_t zindex, bool add_to_camera);
-
-		void entity_destroy(pk::entity_t e);
-
-		void entity_destroy_all();
-
-		void* component_get(pk::entity_t e, pk::component_t id);
-
-		transform_t* get_transform(pk::entity_t e);
-
-		void update(float dt);
-
-		void draw();
-
-	};
+	void ecs_update(float dt);
+	void ecs_draw();
 
 }
