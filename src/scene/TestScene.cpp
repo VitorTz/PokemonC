@@ -22,7 +22,7 @@ void pk::TestScene::update(const float dt) {
 	pk::ecs_set_instance(pk::TestSceneId);
 	pk::ecs_update(dt);
 	pk::ecs_t* ecs = pk::ecs_get_instance(pk::TestSceneId);
-	const std::unordered_set<pk::entity_t>& entities = ecs->system.get_entities_from_component(pk::id::sprite);
+	const std::unordered_set<pk::entity_t>& entities = ecs->system->get_entities_from_component(pk::id::sprite);
 	for (const pk::entity_t e : entities) {
 		pk::transform_t* t = pk::ecs_get_transform(e);
 		t->pos.y += dt * speed[e];

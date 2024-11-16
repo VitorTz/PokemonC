@@ -1,13 +1,16 @@
 #include "Camera.h"
 
 
-pk::Camera::Camera() {
+pk::Camera::Camera(const pk::SceneID scene_id) {
 	this->camera = {
 		pk::SCREEN_CENTER,
 		pk::SCREEN_CENTER,
 		0.0f,
 		1.0f
 	};
+	const pk::map_info_t& map_info = pk::MAP_INFO[scene_id];
+	this->max_x = map_info.width - pk::SCREEN_CENTERX;
+	this->max_y = map_info.height - pk::SCREEN_CENTERY;
 }
 
 
@@ -60,8 +63,8 @@ void pk::Camera::handle_input(const float dt) {
 
 
 void pk::Camera::set_target(const float x, const float y) {
-	this->camera.target.x = x;
-	this->camera.target.y = y;
+	this->camera.target.x = std::clamp(x, pk::SCREEN_CENTERX, this->max_x);
+	this->camera.target.y = std::clamp(y, pk::SCREEN_CENTERY, this->max_y);
 }
 
 

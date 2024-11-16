@@ -36,7 +36,7 @@ void pk::player_update(const float dt, const pk::EntitySet& entities) {
 			shadow_transform->pos.y = player_transform->pos.y + player_transform->size.y - shadow_transform->size.y;
 
 			// Camera Center
-			ecs->camera.set_target(
+			ecs->camera->set_target(
 				player_transform->pos.x + player_transform->size.x / 2.0f,
 				player_transform->pos.y + player_transform->size.y / 2.0f
 			);

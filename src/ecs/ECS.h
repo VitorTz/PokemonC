@@ -9,15 +9,28 @@
 
 namespace pk {
 
-	typedef struct ecs {
-		pk::EntityManager entity{};
-		pk::ComponentManager component{};
-		std::queue<pk::entity_t> entities_to_destroy{};
-		bool should_destroy_all_entities{ false };	
+	class ecs_t {
+
+	public:
+		pk::SceneID scene_id;
+		std::unique_ptr<pk::EntityManager> entity{};
+		std::unique_ptr<pk::ComponentManager> component{};
+		std::unique_ptr<pk::SystemManager> system{};
+		std::unique_ptr<pk::Camera> camera{};
 		pk::Collision collision{};
-		pk::Camera camera{};
-		pk::SystemManager system{};
-	} ecs_t;	
+		std::queue<pk::entity_t> entities_to_destroy{};
+		bool should_destroy_all_entities{ false };
+
+	public:
+		explicit ecs_t(
+			const pk::SceneID scene_id
+		) : scene_id(scene_id),
+			entity(std::make_unique<pk::EntityManager>()),
+			component(std::make_unique<pk::ComponentManager>()),
+			system(std::make_unique<pk::SystemManager>()),
+			camera(std::make_unique<pk::Camera>(scene_id)) { }
+
+	};
 
 	void ecs_create_instance(pk::SceneID scene_id);
 	void ecs_destroy_instance(pk::SceneID scene_id);

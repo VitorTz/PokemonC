@@ -13,9 +13,11 @@ namespace pk {
 		std::array<std::vector<std::pair<float, pk::entity_t>>, pk::CAMERA_ZINDEX_MAX + 1> entities{};
 		std::array<bool, pk::MAX_ENTITIES> is_on_camera{};
 		std::size_t m_size{};
+		float max_x;
+		float max_y;
 
 	public:
-		Camera();
+		explicit Camera(pk::SceneID scene_id);
 		
 		void begin_drawing() const;
 		

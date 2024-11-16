@@ -9,21 +9,6 @@ import pygame
 MAPS_DIR = Path("../src/resources/data/maps")
 
 
-class File:
-
-    def __init__(self, file1: Path, file2: Path) -> None:
-        self.file1 = open(file1, "wb")
-        self.file2 = open(file2, "wb")
-    
-    def write(self, s: str) -> None:
-        self.file1.write(s)
-        self.file2.write(s)
-    
-    def close(self) -> None:
-        self.file1.close()
-        self.file2.close
-    
-
 def load_map(map_path: Path) -> None:
     m: TiledMap = load_pygame(map_path)
     

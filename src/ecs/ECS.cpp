@@ -10,7 +10,7 @@ void pk::ecs_create_instance(const pk::SceneID scene_id) {
 	if (ecs_map.find(scene_id) != ecs_map.end()) {
 		return;
 	}
-	ecs_map.emplace(scene_id, std::make_unique<pk::ecs_t>());
+	ecs_map.emplace(scene_id, std::make_unique<pk::ecs_t>(scene_id));
 	pk::ecs_t* ecs = ecs_map[scene_id].get();
 	const pk::map_info_t& map_info = pk::MAP_INFO[scene_id];
 
@@ -79,11 +79,11 @@ void pk::ecs_set_instance(const pk::SceneID scene_id) {
 
 
 pk::entity_t pk::ecs_create_entity(const pk::zindex_t zindex, const bool add_to_camera) {
-	const pk::entity_t e = mecs->entity.create();
+	const pk::entity_t e = mecs->entity->create();
 	pk::transform_t* t = ecs_get_transform(e);
 	*t = pk::transform_t{ zindex };
 	if (add_to_camera) {
-		mecs->camera.insert(e, zindex);
+		mecs->camera->insert(e, zindex);
 	}
 	return e;
 }
@@ -136,18 +136,18 @@ void pk::ecs_destroy_all_entities() {
 
 
 void* pk::ecs_get_component(const pk::entity_t e, const pk::component_t id) {
-	return mecs->component.at(e, id);
+	return mecs->component->at(e, id);
 }
 
 
 void* pk::ecs_add_component(pk::entity_t e, pk::component_t id) {
-	mecs->system.insert(e, id);
-	return mecs->component.at(e, id);
+	mecs->system->insert(e, id);
+	return mecs->component->at(e, id);
 }
 
 
 pk::transform_t* pk::ecs_get_transform(const pk::entity_t e) {
-	return (pk::transform_t*)mecs->component.at(e, pk::id::transform);
+	return (pk::transform_t*)mecs->component->at(e, pk::id::transform);
 }
 
 
@@ -157,31 +157,31 @@ bool pk::ecs_check_collision(const Rectangle& rect) {
 
 
 void pk::ecs_update(const float dt) {
-	mecs->camera.handle_input(dt);
-	mecs->system.update(dt);
+	mecs->camera->handle_input(dt);
+	mecs->system->update(dt);
 
 	if (mecs->should_destroy_all_entities == true) {
 		mecs->should_destroy_all_entities = false;
-		mecs->camera.clear();
-		mecs->entity.clear();
-		mecs->system.clear();
+		mecs->camera->clear();
+		mecs->entity->clear();
+		mecs->system->clear();
 		mecs->entities_to_destroy = std::queue<pk::entity_t>();
 	}
 
 	while (mecs->entities_to_destroy.empty() == false) {
 		const pk::entity_t e = mecs->entities_to_destroy.front();
 		mecs->entities_to_destroy.pop();
-		mecs->camera.erase(e, ecs_get_transform(e)->zindex);
-		mecs->entity.destroy(e);
-		mecs->system.entity_destroy(e);
+		mecs->camera->erase(e, ecs_get_transform(e)->zindex);
+		mecs->entity->destroy(e);
+		mecs->system->entity_destroy(e);
 	}
 }
 
 
 void pk::ecs_draw() {
-	mecs->camera.begin_drawing();
-		mecs->camera.draw(&mecs->system, &mecs->component);
-	mecs->camera.end_drawing();
+	mecs->camera->begin_drawing();
+		mecs->camera->draw(mecs->system.get(), mecs->component.get());
+	mecs->camera->end_drawing();
 	if (pk::DEBUG_MODE) {
 		DrawFPS(20, 20);
 		pk::debug_ecs(mecs);		
