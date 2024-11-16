@@ -6,8 +6,8 @@ pk::Collision::Collision() {
 }
 
 
-void pk::Collision::insert(Rectangle rect) {
-	this->collisions.emplace_back(rect);
+void pk::Collision::insert(float x, float y, float width, float height) {
+	this->collisions.emplace_back(Rectangle{ x, y, width, height });
 }
 
 

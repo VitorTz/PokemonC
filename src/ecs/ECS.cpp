@@ -15,6 +15,33 @@ void pk::ecs_create_instance(const pk::SceneID scene_id) {
 	const pk::map_info_t& map_info = pk::MAP_INFO[scene_id];
 
 	std::printf("Loading map %s\n", map_info.name);	
+	FILE* file = std::fopen(map_info.tmx_map_path, "rb");
+	assert(file != NULL);
+	
+	while (std::feof(file) == false) {
+		int groupid, n;
+		float x, y, width, height;
+		std::fread(&groupid, sizeof(int), 1, file);
+		std::fread(&n, sizeof(int), 1, file);
+
+		for (int i = 0; i < n; i++) {
+			std::fread(&x, sizeof(float), 1, file);
+			std::fread(&y, sizeof(float), 1, file);
+			std::fread(&width, sizeof(float), 1, file);
+			std::fread(&height, sizeof(float), 1, file);
+
+			switch (groupid) {
+				case pk::ObjectGroupId::CollisionGroupId:
+					ecs->collision.insert(x, y, width, height);
+					break;
+				default:
+					break;
+			}
+
+		}
+	}
+
+	std::fclose(file);
 }
 
 

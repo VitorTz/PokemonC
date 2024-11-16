@@ -12,6 +12,7 @@
 #include <memory>
 #include <cassert>
 #include <iostream>
+#include <fstream>
 #include <cstdlib>
 #include <cstdio>
 #include <queue>

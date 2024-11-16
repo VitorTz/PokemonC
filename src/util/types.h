@@ -48,6 +48,15 @@ namespace pk {
 		NumScenes
 	};
 
+	enum ObjectGroupId {
+		EntitiesGroupId,
+		CollisionGroupId,
+		TransitionGroupId,
+		CoastGroupId,
+		MonstersGroupId,
+		ObjectsGroupId
+	};
+
 	enum CharacterID {
 		PlayerID,
 		NurseID,

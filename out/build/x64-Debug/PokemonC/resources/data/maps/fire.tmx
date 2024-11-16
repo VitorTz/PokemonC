@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="24" height="34" tilewidth="64" tileheight="64" infinite="0" nextlayerid="14" nextobjectid="933">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="24" height="34" tilewidth="64" tileheight="64" infinite="0" nextlayerid="14" nextobjectid="933">
+ <properties>
+  <property name="map-id" type="int" value="2"/>
+ </properties>
  <tileset firstgid="1" source="../tilesets/world.tsx"/>
  <tileset firstgid="211" source="../tilesets/objects.tsx"/>
  <tileset firstgid="242" source="../tilesets/Grass.tsx"/>
@@ -42,45 +45,10 @@
 288,288,288,288,288,288,288,288,288,288,288,288,288,288,288,288,288,288,288,288,288,288,288,288
 </data>
  </layer>
- <layer id="13" name="Terrain Top" width="24" height="34">
-  <data encoding="csv">
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-</data>
- </layer>
  <objectgroup id="3" name="Entities">
+  <properties>
+   <property name="group-id" type="int" value="0"/>
+  </properties>
   <object id="854" name="Player" x="703" y="1865">
    <properties>
     <property name="direction" value="up"/>
@@ -159,9 +127,10 @@
    <point/>
   </object>
  </objectgroup>
- <objectgroup id="9" name="Coast"/>
- <objectgroup id="6" name="Monsters" visible="0"/>
  <objectgroup id="2" name="Objects">
+  <properties>
+   <property name="group-id" type="int" value="5"/>
+  </properties>
   <object id="878" gid="215" x="256" y="448" width="64" height="128"/>
   <object id="879" gid="236" x="563" y="1036" width="60" height="60"/>
   <object id="883" gid="218" x="874" y="1481" width="64" height="104"/>
@@ -176,6 +145,9 @@
   <object id="907" gid="241" x="1175" y="1547" width="56" height="60"/>
  </objectgroup>
  <objectgroup id="12" name="Collisions">
+  <properties>
+   <property name="group-id" type="int" value="1"/>
+  </properties>
   <object id="911" x="195.162" y="315.532" width="1187.33" height="113.358"/>
   <object id="912" x="772.468" y="1870.99" width="841.418" height="162.44"/>
   <object id="913" x="1244.6" y="1826.58" width="361.108" height="181.139"/>
@@ -200,6 +172,9 @@
   <object id="932" x="1236" y="441.333" width="66.6667" height="646.667"/>
  </objectgroup>
  <objectgroup id="5" name="Transition">
+  <properties>
+   <property name="group-id" type="int" value="2"/>
+  </properties>
   <object id="851" x="644.833" y="1976.33" width="114.917" height="3.83333">
    <properties>
     <property name="pos" value="fire"/>
@@ -207,5 +182,4 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup id="10" name="Water" visible="0" locked="1"/>
 </map>

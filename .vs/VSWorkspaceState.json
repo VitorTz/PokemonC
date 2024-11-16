@@ -10,8 +10,9 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\resources\\data\\maps"
+    "\\src\\ecs",
+    "\\src\\util"
   ],
-  "SelectedNode": "\\src\\ecs",
+  "SelectedNode": "\\src\\util\\Collision.cpp",
   "PreviewInSolutionExplorer": false
 }

@@ -64,12 +64,12 @@ namespace pk {
 	// Maps
 	constexpr std::array<pk::map_info_t, pk::NumScenes> MAP_INFO{
 		pk::map_info_t{"TitleScreen", "none", "none", 0.0f, 0.0f }, // TitleScreen
-		pk::map_info_t{ "World", MAPS_PATH "world.png", MAPS_PATH "world.tmx", 5504.0f, 5504.0f }, // World
-		pk::map_info_t{ "FireArena", MAPS_PATH "fire.png", MAPS_PATH "fire.tmx", 5504.0f, 5504.0f },  // FireArena
-		pk::map_info_t{ "WaterArena", MAPS_PATH "plant.png", MAPS_PATH "plant.tmx", 5504.0f, 5504.0f },  // WaterArena
-		pk::map_info_t{ "PlantArena", MAPS_PATH "water.png", MAPS_PATH "water.tmx", 5504.0f, 5504.0f },  // PlantArena
-		pk::map_info_t{ "Hospital", MAPS_PATH "hospital.png", MAPS_PATH "hospital.tmx", 5504.0f, 5504.0f },  // Hospital
-		pk::map_info_t{ "House", MAPS_PATH "house.png", MAPS_PATH "house.tmx", 5504.0f, 5504.0f },  // House
-		pk::map_info_t{ "TestScene", MAPS_PATH "test-scene.png", MAPS_PATH "test-scene.tmx", 5504.0f, 5504.0f }   // TestScene
+		pk::map_info_t{ "World", MAPS_PATH "world.png", MAPS_PATH "world.bin", 5504.0f, 5504.0f }, // World
+		pk::map_info_t{ "FireArena", MAPS_PATH "fire.png", MAPS_PATH "fire.bin", 5504.0f, 5504.0f },  // FireArena
+		pk::map_info_t{ "WaterArena", MAPS_PATH "plant.png", MAPS_PATH "plant.bin", 5504.0f, 5504.0f },  // WaterArena
+		pk::map_info_t{ "PlantArena", MAPS_PATH "water.png", MAPS_PATH "water.bin", 5504.0f, 5504.0f },  // PlantArena
+		pk::map_info_t{ "Hospital", MAPS_PATH "hospital.png", MAPS_PATH "hospital.bin", 5504.0f, 5504.0f },  // Hospital
+		pk::map_info_t{ "House", MAPS_PATH "house.png", MAPS_PATH "house.bin", 5504.0f, 5504.0f },  // House
+		pk::map_info_t{ "TestScene", MAPS_PATH "test-scene.png", MAPS_PATH "test-scene.bin", 5504.0f, 5504.0f }   // TestScene
 	};
 }

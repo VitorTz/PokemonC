@@ -43,3 +43,4 @@ Vector2 pk::get_direction(
     d = Vector2Normalize(d);
     return d;
 }
+

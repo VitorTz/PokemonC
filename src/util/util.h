@@ -3,6 +3,7 @@
 #include <raymath.h>
 #include <cstddef>
 #include "types.h"
+#include <cstdio>
 
 
 namespace pk {

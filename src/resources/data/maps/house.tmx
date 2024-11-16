@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.1" orientation="orthogonal" renderorder="right-down" width="9" height="12" tilewidth="64" tileheight="64" infinite="0" nextlayerid="11" nextobjectid="19">
+<map version="1.10" tiledversion="1.11.0" orientation="orthogonal" renderorder="right-down" width="9" height="12" tilewidth="64" tileheight="64" infinite="0" nextlayerid="11" nextobjectid="20">
+ <properties>
+  <property name="map-id" type="int" value="6"/>
+ </properties>
  <tileset firstgid="1" source="../tilesets/world.tsx"/>
  <tileset firstgid="211" source="../tilesets/objects.tsx"/>
  <tileset firstgid="242" source="../tilesets/indoor.tsx"/>
@@ -19,23 +22,10 @@
 297,298,260,261,298,298,298,298,299
 </data>
  </layer>
- <layer id="10" name="Terrain Top" width="9" height="12">
-  <data encoding="csv">
-0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0
-</data>
- </layer>
  <objectgroup id="2" name="Entities">
+  <properties>
+   <property name="group-id" type="int" value="0"/>
+  </properties>
   <object id="1" name="Player" x="193.333" y="620">
    <properties>
     <property name="direction" value="right"/>
@@ -44,18 +34,21 @@
    <point/>
   </object>
  </objectgroup>
- <objectgroup id="6" name="Coast"/>
- <objectgroup id="7" name="Water"/>
- <objectgroup id="8" name="Monsters"/>
  <objectgroup id="9" name="Collisions">
-  <object id="13" x="-58" y="72.6667" width="118" height="685.333"/>
-  <object id="14" x="515.333" y="92.6667" width="81.3333" height="680"/>
-  <object id="15" x="70.6667" y="43.3333" width="442" height="146.667"/>
-  <object id="17" x="67.3333" y="670" width="89.3333" height="54.6667"/>
-  <object id="18" x="226.667" y="670.667" width="282.667" height="54.6667"/>
+  <properties>
+   <property name="group-id" type="int" value="1"/>
+  </properties>
+  <object id="13" x="45.0515" y="72.6667" width="14.9485" height="643.579"/>
+  <object id="14" x="522.44" y="92.6667" width="33.3611" height="624.921"/>
+  <object id="15" x="64.4481" y="97.5242" width="448.219" height="78.2621"/>
+  <object id="17" x="67.3333" y="704.647" width="89.3333" height="20.0201"/>
+  <object id="18" x="226.667" y="708.867" width="282.667" height="16.4666"/>
+  <object id="19" x="146.334" y="728.229" width="89.3333" height="20.0201"/>
  </objectgroup>
- <objectgroup id="3" name="Objects"/>
  <objectgroup id="5" name="Transition">
+  <properties>
+   <property name="group-id" type="int" value="2"/>
+  </properties>
   <object id="8" x="161.333" y="690.666" width="60" height="16">
    <properties>
     <property name="pos" value="house"/>
@@ -63,20 +56,4 @@
    </properties>
   </object>
  </objectgroup>
- <layer id="4" name="Water" width="9" height="12">
-  <data encoding="csv">
-0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0,
-0,0,0,0,0,0,0,0,0
-</data>
- </layer>
 </map>
