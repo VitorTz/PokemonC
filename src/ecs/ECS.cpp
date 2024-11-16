@@ -6,18 +6,32 @@ static std::unordered_map<pk::SceneID, std::unique_ptr<pk::ecs_t>> ecs_map{};
 static pk::ecs_t* mecs;
 
 
+static void readline(char* buffer, FILE* file) {
+	int i = 0;
+	while (true) {
+		std::fread(buffer + i, sizeof(char), 1, file);
+		if (buffer[i++] == '\0') {
+			break;
+		}
+	}
+}
+
 void pk::ecs_create_instance(const pk::SceneID scene_id) {
 	if (ecs_map.find(scene_id) != ecs_map.end()) {
 		return;
 	}
 	ecs_map.emplace(scene_id, std::make_unique<pk::ecs_t>(scene_id));
-	pk::ecs_t* ecs = ecs_map[scene_id].get();
+	pk::ecs_t* last_ecs_instance = mecs;
+	pk::ecs_set_instance(scene_id);
+
 	const pk::map_info_t& map_info = pk::MAP_INFO[scene_id];
 
 	std::printf("Loading map %s\n", map_info.name);	
 	FILE* file = std::fopen(map_info.tmx_map_path, "rb");
 	assert(file != NULL);
 	
+	char buffer[256];
+		
 	while (std::feof(file) == false) {
 		int groupid, n;
 		float x, y, width, height;
@@ -31,8 +45,15 @@ void pk::ecs_create_instance(const pk::SceneID scene_id) {
 			std::fread(&height, sizeof(float), 1, file);
 
 			switch (groupid) {
-				case pk::ObjectGroupId::CollisionGroupId:
-					ecs->collision.insert(x, y, width, height);
+				case pk::TileObjectGroupId::CollisionGroupId:
+					mecs->collision.insert(x, y, width, height);					
+					break;
+				case pk::TileObjectGroupId::MonstersGroupId:					
+					readline(buffer, file);					
+					break;
+				case pk::TileObjectGroupId::ObjectsGroupId:
+					readline(buffer, file);
+					pk::ecs_create_sprite(pk::CAMERA_ZINDEX_OBJECTS, buffer, x, y);
 					break;
 				default:
 					break;
@@ -42,6 +63,7 @@ void pk::ecs_create_instance(const pk::SceneID scene_id) {
 	}
 
 	std::fclose(file);
+	mecs = last_ecs_instance;
 }
 
 
@@ -89,13 +111,20 @@ pk::entity_t pk::ecs_create_entity(const pk::zindex_t zindex, const bool add_to_
 }
 
 
-pk::entity_t pk::ecs_create_sprite(pk::zindex_t zindex, const char* path) {
+pk::entity_t pk::ecs_create_sprite(pk::zindex_t zindex, const char* path) {	
 	const pk::entity_t e = pk::ecs_create_entity(zindex, true);
 	pk::transform_t* t = (pk::transform_t*)pk::ecs_get_transform(e);
 	pk::sprite_t* s = (pk::sprite_t*)pk::ecs_add_component(e, pk::id::sprite);
 	*s = pk::sprite_t{ path };
 	t->size.x = (float)s->texture.width;
 	t->size.y = (float)s->texture.height;
+	return e;
+}
+
+
+pk::entity_t pk::ecs_create_sprite(pk::zindex_t zindex, const char* path, float x, float y) {
+	const pk::entity_t e = pk::ecs_create_sprite(zindex, path);
+	pk::ecs_get_transform(e)->pos = { x, y };
 	return e;
 }
 

@@ -41,7 +41,8 @@ namespace pk {
 	void ecs_set_instance(pk::SceneID scene_id);
 
 	pk::entity_t ecs_create_entity(pk::zindex_t zindex, bool add_to_camera);
-	pk::entity_t ecs_create_sprite(pk::zindex_t zindex, const char* path);		
+	pk::entity_t ecs_create_sprite(pk::zindex_t zindex, const char* path);
+	pk::entity_t ecs_create_sprite(pk::zindex_t zindex, const char* path, float x, float y);
 	pk::entity_t ecs_create_player(Vector2 pos);
 
 	void ecs_destroy_entity(pk::entity_t e);
